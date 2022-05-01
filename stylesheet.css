@@ -1,0 +1,556 @@
+body{
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif;
+    color: rgb(68, 68, 68);
+    margin: 0% 0%;
+}
+
+/* header */
+header{
+    background: url(https://juita.net/lp/outsource-partner/img/fv-bg.jpg)center bottom no-repeat;
+    background-size: cover;
+    color: #ffffff; 
+    padding-bottom: 50px;   
+}
+header div{
+    margin: 0% 2%;
+}
+.header_nav{
+    display: flex;
+}
+.logo{
+    flex-grow: 1;
+    width: 50px;
+    margin-top: 20px;
+}
+.header_top a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.header_top{
+    text-align: right;
+    flex-grow: 4;
+    margin-top: 20px;
+}
+.header_title p{
+    font-size: 13px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+.header_title img{
+    width: 60%;
+}
+.header_contact{
+    display: block;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #FB9E54;
+    font-size: 30px;
+    font-weight: 900;
+    width: 350px;
+    padding: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+.header_contact a{
+    text-decoration: none;
+    color: #ffffff;
+}
+@media(max-width 1040px)
+
+/* main */
+main section{
+    margin: 70px;
+}
+.main_title{
+    text-align: center;
+}
+.main_title h5{
+    font-size: 20px;
+    color: #000B31;
+    margin-bottom: -20px;
+}
+.main_title h2{
+    font-size: 40px;
+}
+h2 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 50px;
+  }
+h2:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px; 
+    display: inline-block;
+    width: 60px; 
+    height: 4px; 
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%); 
+    background-color: #18B36D; 
+}
+.main_title h5 ,h2{
+    color: #000B31;
+}
+.red{
+    color: red;
+}
+.green{
+    color: #18B36D;
+    
+}
+.yellow{
+    color: yellow;
+}
+.dot_green{
+    -webkit-text-emphasis: filled dot #18B36D;
+    text-emphasis: filled dot #18B36D;
+}
+.dot_yellow{
+    -webkit-text-emphasis: filled dot yellow;
+    text-emphasis: filled dot yellow;
+}
+
+/* section_1 */
+.section_1Main{
+    display: flex;
+}
+.section_1Main > img{
+    width: px;
+    height: 270px;
+}
+.list_1 img{
+    height: 35px;
+    margin-bottom: px;
+}
+.list_1 div{
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.section_1Main p{
+    border-bottom: solid 2px #FF4330;
+    font-size: 23px;
+    margin: 0px 0px ;
+}
+
+/* section_2 */
+.section_2{
+    background: url(https://juita.net/lp/outsource-partner/img/solution-bg.jpg);
+    margin: 0%;
+    padding-bottom: 50px;
+}
+.main_title .white{
+    color: white;
+}
+.list_2{
+    margin-left: 12%;
+    margin-bottom: 30px;
+}
+.list_2 div{
+    display: flex;
+}
+.list_2 img{
+    height: 32px;
+}
+.list_2 p{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}   
+.yellow_underline{
+    color: yellow;
+    border-bottom: solid 2px yellow;
+}
+.section_2 > p{
+    text-align: center;
+}
+.box_2{
+    border: solid 8px #2F79D1;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 80%;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.box_2 p{
+    text-align: center;
+}
+.mail_contact{
+    display: block;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #FA984A;
+    color: #ffffff;
+    font-size: 30px;
+    width: 450px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* section_3 */
+.section_3 .main_title p{
+    font-size: 21px;
+}
+.icon_3{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.icon_3 div{
+    width: 20%;
+}
+.icon_3 p{
+    font-size: 18px;
+    color: #2063AA;
+}
+
+/* section_4 */
+.section_4{
+    background: url(https://juita.net/lp/outsource-partner/img/strong-point-bg.jpg);
+    margin: 0;
+    padding: 30px 50px;
+}
+.section_4 .main_title img{
+    width: 400px;
+}
+.section_4 .main_title p{
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+.section_4 > p{
+    text-align: center;
+    font-size: 21px;
+}
+.box_4{
+    display: flex;
+    text-align: center;
+}
+.box_4 img{
+    width: 365px;
+}
+.box_4 > div{
+    background-color: #ffffff;
+    margin: 0px 13px; 
+}
+.title_4 h5{
+    font-size: 18px;
+    color: #42BA81;
+    margin-bottom: 0px;
+}
+.title_4 h3{
+    font-size: 40px;
+    color: #42BA81;
+    margin-top: 0px;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.box_4 p{
+    margin: 10px 15px;
+    padding-top: 20px;
+    border-top: solid 5px #EEF2F5;
+    text-align: left;
+}
+@media screen and (max-width: 1040px){
+    .box_4{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box_4 > div{
+        width: 350px;
+        
+    }
+}
+
+
+/* section_5 */
+.main_title p{
+    font-size: 21px;
+    padding: 0% 11%;
+}
+.performance{
+    display: flex;
+    justify-content: center;
+}
+.image_5 img{
+    height: 270px;
+}
+.image_5 div{
+    display: flex;
+}
+.border_5{
+    border: solid 1px #134890;
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 2px;
+    margin-right: 7px;
+    height: 13px;
+}
+.image_5 p{
+    color: #134890;
+    margin-top: 0%;
+}
+
+/* section_6 */
+.section_6{
+    background: url(https://juita.net/lp/outsource-partner/img/voice-bg.jpg);
+    margin: 0%;
+    padding: 5% 7% 10% 7%;
+}
+.slide_6{
+    display: flex;
+}
+.box_6{
+    text-align: center;
+}
+.box_6 > div > div > p{
+    color: #00AB5E;
+    margin-bottom: 0px;
+}
+.sub_6{
+    font-size: 13px;
+    margin-top: 0px;
+}
+.box_6 > div{
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    width: 85%;
+    margin: 0px 5px;
+    padding: 20px 15px;
+    margin-bottom: -10px;
+}
+.box_6 > div > p{
+    text-align: left;
+}
+.box_6 a{
+    background-color: #00AB5E;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+/* section_7 */
+.section_7{
+    margin: -35px 0px 0px 0px;
+}
+.section_7 h2:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px; 
+    display: inline-block;
+    width: 60px; 
+    height: 2px; 
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%); 
+    background-color: #ffffff;
+}
+.main_7{
+    background-color: #8ACDED;
+    padding-top: 15px;
+}
+.box_7{
+    display: flex;
+    background-color: #2280D3;
+    padding: 4% 10%;
+}
+.box_7 div{
+    margin-right: 7%;
+}
+.box_7 p{
+    color: #ffffff;
+    width: 100%;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.box_7 img{
+    width: 25%;
+    align-self: center;
+}
+
+/* section_8 */
+.main_8{
+    padding: 0px 6%;
+}
+.Q_A{
+    font-size: 18px;
+}
+.blu{
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+.orange{
+    color: #F97E1B;
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+.accordion{
+    display: none;
+}
+.A{
+    display: block;
+    height : 0;
+    transition:1s;
+    padding: 0;
+    opacity: 0;
+    overflow:hidden;
+    transition: 0.5s;
+}
+.accordion:checked + .Q + .A {
+    height: auto;
+    opacity: 1;
+    padding: 10px;
+    font-size: 16px;  
+}
+.accordion:checked + .Q{
+    color: #2484D3;
+}
+.Q{
+    background-color: #F5F5F5;
+    display: block;
+    width: 100%;
+    padding: 5px 8px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.Q::after{
+    content: "▼";
+    position: absolute;
+    right: 10px;
+    font-size: 10px;
+    margin: 10px;
+}
+.accordion:checked + .Q::after{
+    content: "▲";
+    position: absolute;
+    right: 10px;
+    font-size: 10px;
+    margin: 10px;
+}
+.Q:hover{
+    background-color: #eeeeee;
+}
+
+ /* section_9 */
+.section_9{
+    background-color: #F9F9F9;
+    margin: 0;
+}
+.form_9{
+    background-color: #ffffff;
+    margin: auto 14%;
+}
+#sub_9{
+    text-align: center;
+    color: #FF6600;
+    font-size: 18px;
+}
+.text_9{
+    display: flex;
+    font-size: 17px;
+    align-items: center;
+    margin: 0 5%;
+    padding-top: 50px;
+}
+.text_9 label{
+    width: 250px;
+}
+.text_9 p{
+    display: inline-block;
+    background-color: #E73F3F;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 2px;     
+}
+.input_9{
+    flex-grow: 5;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-left: 30px;
+    border: solid 1px;
+}
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+.info_9{
+    display: block;
+    background-color: #EEEEEE;
+    text-align: center;
+    margin: 30px 5% 0px 5%;
+    padding: 10px;
+}
+.agreement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit{
+    text-align: center;
+}
+.submit input{
+    font-size: 25px;
+    background-color: #F97E1B;
+    border: solid 1px #D8D0CA;
+    border-radius: 50px;
+    color: #ffffff;
+    width: 350px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.footer_form{
+    color: #ffffff;
+}
+
+/* footer */
+.footer_9{
+    background-color: #2281D3;
+    padding: 3% 18%;
+    color: #ffffff;
+}
+.footer_name{
+    display: flex;
+    border-bottom: solid 1px #ffffff;
+    width: 100%;
+}
+.footer_name:first-of-type{
+    border-top: solid 1px #ffffff;
+}
+.footer_name p:first-of-type{
+    width: 150px;
+}
+.footer_name ul{
+    list-style: none;
+    margin-left: -45px;
+}
+
+/* footer_bottom */
+.footer_bottom{
+    width: 100%;
+    background-color: #5B97DC;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+}
